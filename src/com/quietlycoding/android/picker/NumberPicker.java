@@ -371,7 +371,7 @@ public class NumberPicker extends LinearLayout implements OnClickListener,
 
     private class NumberRangeKeyListener extends NumberKeyListener {
 
-        // XXX This doesn't allow for range limits when controlled by a
+        // This doesn't allow for range limits when controlled by a
         // soft input method!
         public int getInputType() {
             return InputType.TYPE_CLASS_NUMBER;
