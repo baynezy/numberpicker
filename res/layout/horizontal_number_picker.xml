@@ -20,7 +20,7 @@
 
 <merge xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <org.xfon.m.numberpicker.NumberPickerButton android:id="@+id/decrement"
+    <com.quietlycoding.android.picker.NumberPickerButton android:id="@+id/decrement"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/horizontal_numberpicker_down_btn" />
@@ -35,7 +35,7 @@
         android:textSize="30sp"
         android:background="@drawable/horizontal_numberpicker_input" />
 
-    <org.xfon.m.numberpicker.NumberPickerButton android:id="@+id/increment"
+    <com.quietlycoding.android.picker.NumberPickerButton android:id="@+id/increment"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/horizontal_numberpicker_up_btn" />
